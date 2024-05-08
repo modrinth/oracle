@@ -189,7 +189,7 @@ impl eframe::App for TemplateApp {
                     ui.horizontal_wrapped(|ui| {
                         ui.spacing_mut().item_spacing.x = 0.0;
                         ui.colored_label(Color32::RED, "Malware has been detected on your computer. We recommend changing all passwords for all accounts signed in on this computer and saved in browsers (including apps like Discord). Check out the ");
-                        ui.hyperlink_to("blog post", "https://github.com/modrinth/oracle");
+                        ui.hyperlink_to("blog post", "https://blog.modrinth.com/p/windows-borderless-malware-disclosure");
                         ui.colored_label(Color32::RED, " for more information.");
 
                     });
